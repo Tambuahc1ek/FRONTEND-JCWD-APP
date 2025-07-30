@@ -7,6 +7,6 @@ export interface Blog {
   category: string;
   thumbnail: string;
   userId: string;
-  created: Date;
-  updated: Date;
+  createdAt: Date;
+  updatedAt: Date;
 }
